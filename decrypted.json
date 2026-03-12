@@ -1,0 +1,1221 @@
+{
+  "Version": {
+    "LastGame": [
+      4,
+      7,
+      0
+    ],
+    "Profile": [
+      1,
+      0,
+      0
+    ]
+  },
+  "Levels": {
+    "Rank": 32,
+    "RankXP": 828855,
+    "Towers": [
+      {
+        "Type": "INVALID",
+        "XP": 0
+      },
+      {
+        "Type": "DartMonkey",
+        "XP": 30896.443359375
+      },
+      {
+        "Type": "TackTower",
+        "XP": 22400.25390625
+      },
+      {
+        "Type": "SniperMonkey",
+        "XP": 43692.5
+      },
+      {
+        "Type": "BoomerangThrower",
+        "XP": 25454.826171875
+      },
+      {
+        "Type": "NinjaMonkey",
+        "XP": 40869.8828125
+      },
+      {
+        "Type": "BombTower",
+        "XP": 39263.3828125
+      },
+      {
+        "Type": "IceTower",
+        "XP": 32104.951171875
+      },
+      {
+        "Type": "GlueGunner",
+        "XP": 33723.3671875
+      },
+      {
+        "Type": "MonkeyBuccaneer",
+        "XP": 1296.841064453125
+      },
+      {
+        "Type": "MonkeyAce",
+        "XP": 115655.7109375
+      },
+      {
+        "Type": "SuperMonkey",
+        "XP": 121146.4921875
+      },
+      {
+        "Type": "MonkeyApprentice",
+        "XP": 9150.025390625
+      },
+      {
+        "Type": "MonkeyVillage",
+        "XP": 180043.375
+      },
+      {
+        "Type": "BananaFarm",
+        "XP": 142360.921875
+      },
+      {
+        "Type": "MortarTower",
+        "XP": 10225.8671875
+      },
+      {
+        "Type": "DartlingGun",
+        "XP": 93584.015625
+      },
+      {
+        "Type": "SpikeFactory",
+        "XP": 17235.5625
+      },
+      {
+        "Type": "HeliPilot",
+        "XP": 14046.1787109375
+      },
+      {
+        "Type": "RoadSpikes",
+        "XP": 0
+      },
+      {
+        "Type": "ExplodingPineapple",
+        "XP": 0
+      },
+      {
+        "Type": "MonkeyEngineer",
+        "XP": 9174.2197265625
+      },
+      {
+        "Type": "Bloonchipper",
+        "XP": 16113.5869140625
+      },
+      {
+        "Type": "MonkeySub",
+        "XP": 25115.458984375
+      },
+      {
+        "Type": "MeerkatSpy",
+        "XP": 0
+      },
+      {
+        "Type": "TribalTurtle",
+        "XP": 0
+      },
+      {
+        "Type": "PortableLake",
+        "XP": 0
+      },
+      {
+        "Type": "Pontoon",
+        "XP": 0
+      },
+      {
+        "Type": "BloonsdayDevice",
+        "XP": 0
+      },
+      {
+        "Type": "AngrySquirrel",
+        "XP": 0
+      },
+      {
+        "Type": "SuperMonkeyStorm",
+        "XP": 0
+      },
+      {
+        "Type": "BeeKeeper",
+        "XP": 0
+      },
+      {
+        "Type": "BloonberryBush",
+        "XP": 0
+      },
+      {
+        "Type": "Radadactyl",
+        "XP": 0
+      },
+      {
+        "Type": "BananaFarmer",
+        "XP": 2
+      },
+      {
+        "Type": "NinjaKiwi",
+        "XP": 0
+      },
+      {
+        "Type": "MonkeyEngineerSentry",
+        "XP": 0
+      }
+    ],
+    "Lab": [
+      {
+        "Type": "AbilityCooldown",
+        "XP": 0
+      },
+      {
+        "Type": "AttackSpeed",
+        "XP": 0
+      },
+      {
+        "Type": "BigBloonSabotage",
+        "XP": 0
+      },
+      {
+        "Type": "DoublePierce",
+        "XP": 0
+      },
+      {
+        "Type": "SellAmount",
+        "XP": 0
+      },
+      {
+        "Type": "StartingCash",
+        "XP": 23
+      },
+      {
+        "Type": "StartingLives",
+        "XP": 0
+      }
+    ]
+  },
+  "MapMedals": {
+    "Maps": [
+      {
+        "MapName": "monkey_lane",
+        "HasBronze": false,
+        "HasSilver": false,
+        "HasGold": true,
+        "HasImpoppable": false,
+        "HasReverse": false,
+        "HasClassic": false,
+        "HighestRound": 85,
+        "DifficultyLevel": 2
+      },
+      {
+        "MapName": "frozen_lake",
+        "HasBronze": false,
+        "HasSilver": false,
+        "HasGold": true,
+        "HasImpoppable": false,
+        "HasReverse": false,
+        "HasClassic": false,
+        "HighestRound": 85,
+        "DifficultyLevel": 2
+      },
+      {
+        "MapName": "hedge_maze",
+        "HasBronze": false,
+        "HasSilver": false,
+        "HasGold": true,
+        "HasImpoppable": false,
+        "HasReverse": false,
+        "HasClassic": false,
+        "HighestRound": 85,
+        "DifficultyLevel": 2
+      }
+    ]
+  },
+  "Quests": {
+    "QuestProgress": [
+      {
+        "Name": "thebigshred",
+        "RewardClaimed": false,
+        "Day": 20514,
+        "Progress": 0
+      },
+      {
+        "Name": "trapmoney",
+        "RewardClaimed": false,
+        "Day": 20514,
+        "Progress": 0
+      },
+      {
+        "Name": "rolling",
+        "RewardClaimed": false,
+        "Day": 20514,
+        "Progress": 0
+      }
+    ]
+  },
+  "MissionCompletion": {
+    "Random": [],
+    "Special": [],
+    "Odyssey": []
+  },
+  "Items": {
+    "MonkeyMoney": 1110,
+    "Tokens": 6,
+    "SpecialItems": 0,
+    "TowerInventory": [
+      {
+        "Type": "MonkeyVillage",
+        "Amount": 0
+      },
+      {
+        "Type": "SpikeFactory",
+        "Amount": 1
+      },
+      {
+        "Type": "SuperMonkeyStorm",
+        "Amount": 1
+      },
+      {
+        "Type": "BloonberryBush",
+        "Amount": 2
+      },
+      {
+        "Type": "BananaFarmer",
+        "Amount": 0
+      }
+    ],
+    "PremiumUpgrades": [],
+    "Subscriptions": [],
+    "Specialties": [
+      {
+        "Type": "SpecialtyLand.json",
+        "Level": 1
+      }
+    ],
+    "ControlScheme": 0,
+    "ShowHints": false,
+    "AutoRoundOn": true,
+    "MusicOn": true,
+    "SFXOn": true,
+    "EveryplayOn": true,
+    "UsedQuickPlay": true,
+    "LanguageCode": "es-MX",
+    "HasPushedCoopButton": false,
+    "HasPushedChallengeButton": true
+  },
+  "ViewedScreenHelp": [
+    "WelcomePopup4.6",
+    "SpecialAgentScreen",
+    "MonkeyLabScreen",
+    "HallOfFameScreen",
+    "CloudPrompt",
+    "TowerInfoScreen",
+    "SpecialtiesScreen",
+    "UpgradeShop",
+    "OdysseyPathScreen",
+    "ice_flow_fade",
+    "challenger_deep_fade",
+    "WelcomePopup4.7"
+  ],
+  "ViewedMapUnlocks": [
+    "ice_flow",
+    "challenger_deep",
+    "dark_dungeon",
+    "fast_track",
+    "throne_room",
+    "lonely_heart",
+    "autumn_leaves",
+    "forgotten_garden",
+    "head_in_the_clouds",
+    "flooded_lane",
+    "walk_in_the_park",
+    "ancient_tomb",
+    "hearthside",
+    "six_feet",
+    "river_rapids",
+    "wattle_trees",
+    "pyramids",
+    "dune_sea",
+    "lava_fields",
+    "country_road",
+    "jungle",
+    "workshop",
+    "bloon_of_clubs",
+    "full_house",
+    "moab_madness",
+    "protect_monkey_town",
+    "there_can_be_only_one",
+    "special_agents_only",
+    "RandomMission",
+    "archipelago",
+    "tributaries",
+    "double_double_crossover",
+    "crop_circles",
+    "tunnels"
+  ],
+  "ViewedTowerUnlocks": [
+    "LOC_TackTower_TOWER",
+    "LOC_SniperMonkey_TOWER",
+    "LOC_BoomerangThrower_TOWER",
+    "LOC_NinjaMonkey_TOWER",
+    "LOC_BombTower_TOWER",
+    "LOC_IceTower_TOWER",
+    "LOC_GlueGunner_TOWER",
+    "LOC_MonkeyBuccaneer_TOWER",
+    "LOC_MonkeyAce_TOWER",
+    "LOC_SuperMonkey_TOWER",
+    "LOC_MonkeyApprentice_TOWER",
+    "LOC_MonkeyVillage_TOWER",
+    "LOC_BananaFarm_TOWER",
+    "LOC_MortarTower_TOWER",
+    "LOC_DartlingGun_TOWER",
+    "LOC_MonkeySub_TOWER",
+    "LOC_Bloonchipper_TOWER",
+    "LOC_MonkeyEngineer_TOWER",
+    "LOC_SpikeFactory_TOWER",
+    "LOC_HeliPilot_TOWER"
+  ],
+  "ViewedGenericUnlocks": [
+    "SnowyBackyardTokenFix"
+  ],
+  "ViewedEventInfo": [
+    "4samm3z1ttp",
+    "4samm3z1tu0",
+    "4samm3z1tss",
+    "4samm3z1tsg"
+  ],
+  "ViewedAchievementUnlocks": [],
+  "ViewedAgents": [
+    70368744177664
+  ],
+  "UnlockedTowers": [
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "UnlockedLevel4Upgrades": [
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "UnlockedTowerLevelUps": {
+    "TestTower": {
+      "PathA": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "PathB": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "DartMonkey": {
+      "PathA": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "TackTower": {
+      "PathA": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "SniperMonkey": {
+      "PathA": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "BoomerangThrower": {
+      "PathA": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "NinjaMonkey": {
+      "PathA": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "BombTower": {
+      "PathA": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "IceTower": {
+      "PathA": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "GlueGunner": {
+      "PathA": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "MonkeyBuccaneer": {
+      "PathA": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "PathB": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    "MonkeyAce": {
+      "PathA": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "SuperMonkey": {
+      "PathA": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    "MonkeyApprentice": {
+      "PathA": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    "MonkeyVillage": {
+      "PathA": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    "BananaFarm": {
+      "PathA": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    "MortarTower": {
+      "PathA": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    "DartlingGun": {
+      "PathA": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    "SpikeFactory": {
+      "PathA": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    "HeliPilot": {
+      "PathA": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    "RoadSpikes": {
+      "PathA": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "PathB": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "ExplodingPineapple": {
+      "PathA": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "PathB": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "MonkeyEngineer": {
+      "PathA": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    "Bloonchipper": {
+      "PathA": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    "MonkeySub": {
+      "PathA": [
+        true,
+        true,
+        true,
+        false
+      ],
+      "PathB": [
+        true,
+        true,
+        true,
+        false
+      ]
+    }
+  },
+  "UnlockedTowerLevelSeen": {
+    "TestTower": [
+      0,
+      0
+    ],
+    "DartMonkey": [
+      4,
+      4
+    ],
+    "TackTower": [
+      4,
+      4
+    ],
+    "SniperMonkey": [
+      4,
+      4
+    ],
+    "BoomerangThrower": [
+      4,
+      4
+    ],
+    "NinjaMonkey": [
+      4,
+      4
+    ],
+    "BombTower": [
+      4,
+      4
+    ],
+    "IceTower": [
+      4,
+      4
+    ],
+    "GlueGunner": [
+      4,
+      4
+    ],
+    "MonkeyBuccaneer": [
+      0,
+      0
+    ],
+    "MonkeyAce": [
+      3,
+      3
+    ],
+    "SuperMonkey": [
+      3,
+      3
+    ],
+    "MonkeyApprentice": [
+      3,
+      3
+    ],
+    "MonkeyVillage": [
+      3,
+      3
+    ],
+    "BananaFarm": [
+      3,
+      3
+    ],
+    "MortarTower": [
+      3,
+      3
+    ],
+    "DartlingGun": [
+      3,
+      3
+    ],
+    "SpikeFactory": [
+      3,
+      3
+    ],
+    "HeliPilot": [
+      3,
+      3
+    ],
+    "RoadSpikes": [
+      0,
+      0
+    ],
+    "ExplodingPineapple": [
+      0,
+      0
+    ],
+    "MonkeyEngineer": [
+      3,
+      3
+    ],
+    "Bloonchipper": [
+      3,
+      3
+    ],
+    "MonkeySub": [
+      3,
+      2
+    ]
+  },
+  "TipsSeen": 595711,
+  "SandboxUnlocked": false,
+  "FastTrackUnlocked": false,
+  "FastTrackActive": false,
+  "Upgrades": {
+    "PremiumUpgrades": [],
+    "Specialties": [],
+    "LabItems": [
+      "StartingCash"
+    ]
+  },
+  "AdData": {
+    "GamePlaysSinceAd": 0,
+    "AdViewCount": [
+      {
+        "ID": "CrossPromo_11_f9bec8308b95fc9be417ed9f056290df",
+        "Count": 1
+      }
+    ]
+  },
+  "Chest": {
+    "NextTime3.3": 514800,
+    "DaysInRow": 4,
+    "ChestRewardIndex": 4
+  },
+  "DailyChallenge": {
+    "LastTime": 0,
+    "EasyThisWeek": 0,
+    "MediumThisWeek": 0,
+    "HardThisWeek": 0,
+    "ImpoppableThisWeek": 0,
+    "TotalEver": 0,
+    "EasySpinsToday": 0,
+    "MediumSpinsToday": 0,
+    "HardSpinsToday": 0,
+    "ImpoppableSpinsToday": 0,
+    "CompletedEasy": false,
+    "ChallengeSeedEasy": 0,
+    "ChallengeLockedEasy": false,
+    "CompletedMedium": false,
+    "ChallengeSeedMedium": 0,
+    "ChallengeLockedMedium": false,
+    "CompletedHard": false,
+    "ChallengeSeedHard": 0,
+    "ChallengeLockedHard": false,
+    "CompletedImpoppable": false,
+    "ChallengeSeedImpoppable": 0,
+    "ChallengeLockedImpoppable": false
+  },
+  "AchievementAndScoreTracking": {
+    "TotalBloonsPopped": 1360777,
+    "TotalMOABsPopped": 1470,
+    "TotalBFBsPopped": 175,
+    "TotalZOMGsPopped": 3,
+    "TotalLeadBloonsPopped": 1635,
+    "TotalCeramicBloonsPopped": 9511,
+    "TotalCamoBloonsPopped": 126929,
+    "TotalTokensEarned": 29,
+    "TowerUnlockPopCount": {
+      "MonkeySub": 1360777
+    }
+  },
+  "AchievementProgressObject": {
+    "AchievementProgressArray": [
+      {
+        "Identifier": "BTD5_4OfAKind",
+        "Progress": 0
+      },
+      {
+        "Identifier": "BTD5_AmazinglyRandom",
+        "Progress": 0
+      },
+      {
+        "Identifier": "BTD5_BFBBrawler",
+        "Progress": 8.75
+      },
+      {
+        "Identifier": "BTD5_Centurion",
+        "Progress": 0
+      },
+      {
+        "Identifier": "BTD5_EntirelyRandom",
+        "Progress": 0
+      },
+      {
+        "Identifier": "BTD5_HardBaked",
+        "Progress": 3.804399728775024
+      },
+      {
+        "Identifier": "BTD5_Impoppable",
+        "Progress": 2.721554040908813
+      },
+      {
+        "Identifier": "BTD5_IncreasinglyRandom",
+        "Progress": 0
+      },
+      {
+        "Identifier": "BTD5_Infrared",
+        "Progress": 50.771598815917969
+      },
+      {
+        "Identifier": "BTD5_MOABAssassin",
+        "Progress": 29.39999961853027
+      },
+      {
+        "Identifier": "BTD5_MazeOlympian",
+        "Progress": 33.400001525878913
+      },
+      {
+        "Identifier": "BTD5_MonkeyLaneOlympian",
+        "Progress": 33.400001525878913
+      },
+      {
+        "Identifier": "BTD5_NighImpoppable",
+        "Progress": 0
+      },
+      {
+        "Identifier": "BTD5_PerfectWeek",
+        "Progress": 0
+      },
+      {
+        "Identifier": "BTD5_PersistentlyRandom",
+        "Progress": 0
+      },
+      {
+        "Identifier": "BTD5_SomewhatRandom",
+        "Progress": 0
+      },
+      {
+        "Identifier": "BTD5_Steeley",
+        "Progress": 0.65399998426437378
+      },
+      {
+        "Identifier": "BTD5_TheRinkOlympian",
+        "Progress": 33.400001525878913
+      },
+      {
+        "Identifier": "BTD5_TokenAffection",
+        "Progress": 58
+      },
+      {
+        "Identifier": "BTD5_TrackStar",
+        "Progress": 9.0909090042114258
+      },
+      {
+        "Identifier": "BTD5_ZOMGinator",
+        "Progress": 0.300000011920929
+      }
+    ]
+  },
+  "Odyssey": {
+    "InProgress": true,
+    "CurrentID": "4samm3yqcuy",
+    "ExpiryWarningSeen": false,
+    "Status": 0,
+    "PathIndex": 2,
+    "Health": 100,
+    "WasRandom": false,
+    "RandomSeed": 0,
+    "StartTime": 1756910887,
+    "SessionCount": 1,
+    "TracksId": "4samm3yqcuy",
+    "Tracks": [
+      "monkey_lane",
+      "river_logging",
+      "mosaic",
+      "alpine_lake",
+      "bobsleigh_run",
+      "dancefloor",
+      "nazca_lines",
+      "toyland",
+      "daffodils",
+      "carpark",
+      "snowman",
+      "oasis",
+      "bloom",
+      "present_delivery",
+      "rabbit_holes",
+      "snowy_backyard",
+      "sprint_track",
+      "express_shipping",
+      "checkers",
+      "skull_peak",
+      "lobby",
+      "3_times_around",
+      "grotto",
+      "patch",
+      "hedge_maze",
+      "fireworks",
+      "brick_wall",
+      "z_factor",
+      "maze",
+      "frozen_lake",
+      "roswell",
+      "space_truckin",
+      "dark_dungeon",
+      "fast_track",
+      "throne_room",
+      "lonely_heart",
+      "autumn_leaves",
+      "forgotten_garden",
+      "head_in_the_clouds",
+      "flooded_lane",
+      "walk_in_the_park",
+      "ancient_tomb",
+      "hearthside",
+      "six_feet",
+      "river_rapids",
+      "wattle_trees",
+      "pyramids",
+      "dune_sea",
+      "lava_fields",
+      "ice_flow",
+      "country_road",
+      "jungle",
+      "workshop",
+      "bloon_of_clubs",
+      "archipelago",
+      "crop_circles",
+      "slalom",
+      "stream",
+      "dock_side",
+      "villageshore",
+      "trick_or_treat",
+      "dollar",
+      "egg_hunt",
+      "day_of_the_undead",
+      "promontory",
+      "tidal_pools",
+      "bigfoot",
+      "igloos",
+      "battle_knot",
+      "candyland",
+      "crypt_keeper",
+      "long_range",
+      "water_hazard",
+      "rink_revenge",
+      "challenger_deep",
+      "scorched_earth",
+      "u_turn",
+      "the_great_divide",
+      "the_eye",
+      "one_direction",
+      "lightning_scar",
+      "go_with_the_flow",
+      "mount_magma",
+      "siege",
+      "tributaries",
+      "double_double_crossover",
+      "tunnels",
+      "castle",
+      "against_the_clock",
+      "drag_strip",
+      "canyon",
+      "treetops",
+      "runway",
+      "down_the_drain",
+      "benguela",
+      "web",
+      "forestpath",
+      "campfire",
+      "toxic_waste",
+      "tar_pit",
+      "main_street",
+      "radioactive"
+    ],
+    "Progress": [
+      0,
+      0,
+      0
+    ]
+  },
+  "Mastery": {
+    "UnlockedLevel": 0,
+    "Enabled": false
+  },
+  "Collectibles": {
+    "data": [],
+    "currency": 0,
+    "reward_idx": 0,
+    "last_collectible_event_popup": "",
+    "currentMapIndex": 0,
+    "currentMapStartTime": 0,
+    "currentMapEndTime": 0
+  },
+  "Bosses": {
+    "EventID": "",
+    "StartTime": 0,
+    "SeenTime": 0,
+    "BossAttempt": 0,
+    "BossIndex": 0
+  },
+  "Bloonvasion": {
+    "Rewards": [],
+    "EventID": "4uc9akf4tfi",
+    "LastAttempt": 0,
+    "AttemptDayIndex": 0,
+    "PrizeIndexSeen": -1,
+    "PrevHighestRound": 0,
+    "HighestRound": 0
+  },
+  "BloonHunt": {
+    "EventID": "",
+    "StartTime": 0,
+    "Index": 0
+  },
+  "TheCrucible": {
+    "current_the_crucible_event": "",
+    "last_completed_the_crucible_event": "",
+    "last_completed_the_crucible_event_cycle": -1
+  },
+  "MixNMatch": {
+    "current_mix_n_match_event": "",
+    "last_completed_mix_n_match_event": "",
+    "last_completed_mix_n_match_event_cycle": -1
+  },
+  "PreferredMonkey": {
+    "last_preferred_monkey_event_popup": "4samm3z1tu0",
+    "last_completed_preferred_monkey_event": "",
+    "last_completed_preferred_monkey_event_cycle": -1
+  },
+  "MonkeyTeam": {
+    "last_monkey_team_event_popup": "4samm3z1tsg",
+    "last_completed_monkey_team_event": "",
+    "last_completed_monkey_team_event_cycle": -1
+  },
+  "Timers": {
+    "SeenServerTime": true,
+    "FirstServerTime": 1756739539722,
+    "OfflineTimer": 15692516590,
+    "RewardMonkeyMoneyMultiplier": 0,
+    "RewardMonkeyMoneyMultiplierEndTime": 0
+  },
+  "CloudSavePrompt": {
+    "LastCloudSavePromptTime": 1014
+  },
+  "FakeSubscriptionArray": [],
+  "DateTime": 1772432056,
+  "BypassRanks": false,
+  "UnlockAll": false,
+  "DebugTime": 0
+}

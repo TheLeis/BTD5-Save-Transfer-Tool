@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/monkey_money.png</file>
+        <file>fonts/oetztyp.ttf</file>
+        <file>img/app-icon.png</file>
+    </qresource>
+</RCC>
