@@ -10,7 +10,7 @@ public:
     static QByteArray executeADBCommand(const QStringList &arguments);
     static QString executeADBCommandResult(const QStringList &arguments);
     static bool deviceIsRooted();
-    static bool hasConnectedDevices();
+    static int hasConnectedDevices();
 };
 
 #endif

@@ -1,9 +1,9 @@
 # BTD5-Save-Transfer-Tool
 
-A simple C++ (using the Qt framework for GUI) tool for transferring Bloons Tower Defense 5 files between a Windows computer and an Android device, or vice versa.
+A simple C++ tool for transferring Bloons Tower Defense 5 files between a PC and an Android device, or vice versa. Uses the Qt framework for GUI.
 
 ## Requirements
-* A Windows computer with ADB installed and added to your %PATH%.
+* A Windows or Linux computer with ADB installed and added to your %PATH%.
 * A rooted Android device with root access enabled for the shell.
 
 > Note: This tool does not provide rooting instructions. Please ensure your device is already rooted before use.
@@ -20,6 +20,3 @@ A simple C++ (using the Qt framework for GUI) tool for transferring Bloons Tower
 2. Clone the repository.
 3. Open the project in Qt Creator.
 4. Build the project.
-
-## Planned Features
-* Linux support

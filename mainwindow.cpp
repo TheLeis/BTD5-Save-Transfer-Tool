@@ -78,7 +78,14 @@ QPair<QString, QString> MainWindow::getSaveFileData(QByteArray save) {
 
 // Mobile operations
 bool MainWindow::mobileIsReady() {
-    if (ADB::hasConnectedDevices() == false) {
+    if (ADB::hasConnectedDevices() == -1) {
+        QMessageBox::critical(nullptr,
+                              "Error",
+                              "ADB not found.");
+        return false;
+    }
+
+    if (ADB::hasConnectedDevices() == 0) {
         QMessageBox::critical(nullptr,
                               "Error",
                               "No devices connected.");
@@ -102,6 +109,15 @@ bool MainWindow::mobileIsReady() {
 // PC save operations
 void MainWindow::getPCSaveFile()
 {
+    QString defaultPath;
+    #ifdef Q_OS_WIN
+        defaultPath = "C:/Program Files (x86)/Steam/userdata";
+    #elif defined(Q_OS_LINUX)
+        defaultPath = QDir::homePath() + "/.steam/steam/userdata";
+    #else
+        defaultPath = QDir::homePath();
+    #endif
+
     QMessageBox::information(nullptr,
                             "File location info",
                             "Please select your Bloons Tower Defense 5 PC save file.\n"
@@ -109,7 +125,7 @@ void MainWindow::getPCSaveFile()
                             "[Steam ID Number]/306020/local/Data/Docs");
     QString fileName = QFileDialog::getOpenFileName(this,
                                                     tr("Load BTD5 PC save file"),
-                                                    "C:/Program Files (x86)/Steam/userdata",
+                                                    defaultPath,
                                                     tr("BTD5 Save Files (*.save)"));
     if (!fileName.isEmpty()) {
         QFile File(fileName);
@@ -128,7 +144,10 @@ void MainWindow::getPCSaveFile()
 void MainWindow::PCToMobile() {
     if (mobileIsReady()) {
         QSaveFile file("PC_Profile.save");
-        file.open(QIODevice::WriteOnly);
+        if (!file.open(QIODevice::WriteOnly)) {
+            qWarning() << "Failed to open file for writing:" << file.errorString();
+            return;
+        }
         file.write(PCSave);
         file.commit();
         ADB::executeADBCommand({"push", "PC_Profile.save", "data/local/tmp/"});
@@ -156,7 +175,10 @@ void MainWindow::getMobileSaveFile()
 
 void MainWindow::mobileToPC() {
     QSaveFile file("Profile.save");
-    file.open(QIODevice::WriteOnly);
+    if (!file.open(QIODevice::WriteOnly)) {
+        qWarning() << "Failed to open file for writing:" << file.errorString();
+        return;
+    };
     file.write(mobileSave);
     file.commit();
     QMessageBox::information(nullptr,

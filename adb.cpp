@@ -29,13 +29,20 @@ bool ADB::deviceIsRooted() {
     return false;
 }
 
-bool ADB::hasConnectedDevices() {
+int ADB::hasConnectedDevices() {
+    // Retrns 3 possible int values:
+    // -1 if ADB is not installed
+    // 0 if ADB is installed, but has no connected devices
+    // 1 if ADB is installed and has connected devices
     QString output = executeADBCommandResult({"devices"});
     int pos = output.indexOf('\n');
     if (pos != -1) { // Ignore List of devices attached line
         output = output.mid(pos + 1);
         qDebug() << output;
-        return output.contains("device");
+        if (output.contains("device")) {
+            return 1;
+        }
+        return 0;
     }
-    return false;
+    return -1;
 }
