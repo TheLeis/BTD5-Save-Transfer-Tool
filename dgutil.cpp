@@ -1,3 +1,5 @@
+#include <QJsonDocument>
+
 #include "dgutil.h"
 
 quint32 DgUtil::nk_crc32(const QByteArray& message)
