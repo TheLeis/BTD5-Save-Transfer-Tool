@@ -14,7 +14,6 @@
 #include <QProcess>
 
 #include "mainwindow.h"
-#include "ui_mainwindow.h"
 
 int main(int argc, char *argv[])
 {
@@ -25,6 +24,5 @@ int main(int argc, char *argv[])
     QApplication::setFont(QFont(family, 12));
     MainWindow w;
     w.show();
-    /* w.setMobileData(mobileSave); */
     return a.exec();
 }

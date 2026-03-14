@@ -1,7 +1,5 @@
-#include <QByteArray>
 #include <QDebug>
 #include <QProcess>
-#include <QStringList>
 
 #include "adb.h"
 
